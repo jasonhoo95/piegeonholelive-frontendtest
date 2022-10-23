@@ -1,0 +1,306 @@
+.container {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	font-family: circular, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif;
+}
+/* right: calc(100% - 410px); */
+
+.floating-container {
+	transform: scale(1.2);
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	background-color: #fbd9d8;
+	z-index: 5;
+	text-align: center;
+	overflow: hidden;
+	position: absolute;
+	right: 35px;
+	height: 100%;
+	top: 0;
+	width: 350px;
+}
+
+.pink-btn {
+	color: white;
+	font-weight: bold;
+	background-color: #fbd9d8;
+	border-radius: 15px;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+}
+
+.underline-txt {
+	text-decoration: underline;
+	color: black;
+	text-align: right;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.inner-container {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputTxt {
+	border-radius: 0.25rem !important;
+	width: 100%;
+	padding: 10px 10px;
+	border: 1px solid #e2e8f0 !important;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+}
+
+.background-box {
+	background-color: white;
+	position: relative;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	width: 840px;
+	height: 400px;
+}
+
+.login-container {
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+	width: 50%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.floating-slideRight {
+	animation: floatingSlideRight 0.3s;
+	animation-fill-mode: forwards;
+}
+
+.floatingBackgroundSlideLeft {
+	animation: floatingBackgroundSlideLeft 0.3s;
+	animation-fill-mode: forwards;
+}
+
+.floatingBackgroundSlideRight {
+	animation: floatingBackgroundSlideRight 0.3s;
+	animation-fill-mode: forwards;
+}
+
+.floating-slideLeft {
+	animation: floatingSlideLeft 0.3s;
+	animation-fill-mode: forwards;
+}
+
+.slideLeftLogin {
+	animation: slideLeftLogin 0.3s;
+	animation-fill-mode: forwards;
+}
+
+.slideLeftCreate {
+	animation: slideLeftCreate 0.3s;
+	animation-fill-mode: forwards;
+}
+
+.slideRightLogin {
+	animation: slideRightLogin 0.3s;
+	animation-fill-mode: forwards;
+}
+
+.slideRightCreate {
+	animation: slideRightCreate 0.3s;
+	animation-fill-mode: forwards;
+}
+
+.slideLeftFloating {
+	animation: slideLeftFloating 0.35s;
+	animation-fill-mode: forwards;
+}
+
+.slideLeftFloating2 {
+	animation: slideLeftFloating2 0.35s;
+	animation-fill-mode: forwards;
+}
+
+.slideRightFloating {
+	animation: slideRightFloating 0.35s;
+	animation-fill-mode: forwards;
+}
+
+.slideRightFloating2 {
+	animation: slideRightFloating2 0.35s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes floatingBackgroundSlideLeft {
+	0% {
+		background-color: #fbd9d8;
+		right: 35px;
+	}
+
+	50% {
+		background-color: #fbd9d8;
+	}
+
+	100% {
+		background-color: #394d63;
+		right: calc(100% - 385px);
+	}
+}
+
+@keyframes floatingBackgroundSlideRight {
+	0% {
+		background-color: #394d63;
+		right: calc(100% - 385px);
+	}
+
+	50% {
+		background-color: #394d63;
+	}
+
+	100% {
+		background-color: #fbd9d8;
+		right: 35px;
+	}
+}
+
+@keyframes slideLeftFloating {
+	0% {
+		left: 0;
+	}
+
+	100% {
+		left: -800px;
+	}
+}
+
+@keyframes slideLeftFloating2 {
+	0% {
+		left: 800px;
+	}
+
+	100% {
+		left: 0;
+	}
+}
+
+@keyframes slideRightFloating {
+	0% {
+		left: -800px;
+	}
+
+	100% {
+		left: 0;
+	}
+}
+
+@keyframes slideRightFloating2 {
+	0% {
+		left: 0;
+	}
+
+	100% {
+		left: 800px;
+	}
+}
+
+@keyframes slideLeftLogin {
+	0% {
+		left: 0;
+		z-index: 2;
+	}
+	25% {
+		z-index: 2;
+	}
+	30% {
+		z-index: 1;
+	}
+
+	100% {
+		left: 50%;
+		z-index: 1;
+	}
+}
+
+@keyframes slideLeftCreate {
+	0% {
+		left: 0;
+		z-index: 1;
+	}
+	25% {
+		z-index: 1;
+	}
+	30% {
+		z-index: 2;
+	}
+
+	100% {
+		z-index: 2;
+		left: 50%;
+	}
+}
+
+@keyframes floatingSlideLeft {
+	0% {
+		right: calc(100% - 385px);
+	}
+
+	100% {
+		right: 35px;
+	}
+}
+
+@keyframes floatingSlideRight {
+	0% {
+		right: 35px;
+	}
+
+	100% {
+		right: calc(100% - 385px);
+	}
+}
+
+@keyframes slideRightLogin {
+	0% {
+		left: 50%;
+		z-index: 1;
+	}
+	25% {
+		z-index: 1;
+	}
+	30% {
+		z-index: 2;
+	}
+	100% {
+		left: 0;
+		z-index: 2;
+	}
+}
+
+@keyframes slideRightCreate {
+	0% {
+		left: 50%;
+		z-index: 2;
+	}
+	25% {
+		z-index: 2;
+	}
+	30% {
+		z-index: 1;
+	}
+
+	100% {
+		z-index: 1;
+		left: 0;
+	}
+}
