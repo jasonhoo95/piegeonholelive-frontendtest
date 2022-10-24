@@ -85,57 +85,57 @@ body {
 }
 
 .floating-slideRight {
-	animation: floatingSlideRight 0.3s;
+	animation: floatingSlideRight 0.2s;
 	animation-fill-mode: forwards;
 }
 
 .floatingBackgroundSlideLeft {
-	animation: floatingBackgroundSlideLeft 0.3s;
+	animation: floatingBackgroundSlideLeft 0.2s;
 	animation-fill-mode: forwards;
 }
 
 .floatingBackgroundSlideRight {
-	animation: floatingBackgroundSlideRight 0.3s;
+	animation: floatingBackgroundSlideRight 0.2s;
 	animation-fill-mode: forwards;
 }
 
 .floating-slideLeft {
-	animation: floatingSlideLeft 0.3s;
+	animation: floatingSlideLeft 0.2s;
 	animation-fill-mode: forwards;
 }
 
 .slideLeftLogin {
-	animation: slideLeftLogin 0.3s;
+	animation: slideLeftLogin 0.2s;
 	animation-fill-mode: forwards;
 }
 
 .slideLeftCreate {
-	animation: slideLeftCreate 0.3s;
+	animation: slideLeftCreate 0.2s;
 	animation-fill-mode: forwards;
 }
 
 .slideRightLogin {
-	animation: slideRightLogin 0.3s;
+	animation: slideRightLogin 0.2s;
 	animation-fill-mode: forwards;
 }
 
 .slideRightCreate {
-	animation: slideRightCreate 0.3s;
+	animation: slideRightCreate 0.2s;
 	animation-fill-mode: forwards;
 }
 
 .slideLeftFloating {
-	animation: slideLeftFloating 0.35s;
+	animation: slideLeftFloating 0.3s;
 	animation-fill-mode: forwards;
 }
 
 .slideLeftFloating2 {
-	animation: slideLeftFloating2 0.35s;
+	animation: slideLeftFloating2 0.3s;
 	animation-fill-mode: forwards;
 }
 
 .slideRightFloating {
-	animation: slideRightFloating 0.35s;
+	animation: slideRightFloating 0.3s;
 	animation-fill-mode: forwards;
 }
 
