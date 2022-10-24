@@ -15,7 +15,7 @@ body {
 /* right: calc(100% - 410px); */
 
 .floating-container {
-	transform: scale(1.2, 1.1);
+	transform: scale(1.2);
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 	background-color: #fbd9d8;
 	z-index: 5;
@@ -23,8 +23,8 @@ body {
 	overflow: hidden;
 	position: absolute;
 	right: 35px;
-	height: 100%;
-	top: 0;
+	height: 95%;
+	top: 2.5%;
 	width: 350px;
 }
 
