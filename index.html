@@ -12,11 +12,11 @@
 							<h2 style="text-align: center">Sign In</h2>
 							<div style="margin-bottom: 20px">
 								<div>Email</div>
-								<input class="inputTxt" type="email" required />
+								<input class="inputTxt" placeholder="pigeon@nestcoop.com" type="email" required />
 							</div>
 							<div style="margin-bottom: 20px">
 								<div>Password</div>
-								<input class="inputTxt" type="password" onkeyup="validatePasswordLength(event)" required />
+								<input class="inputTxt" type="password" placeholder="******" onkeyup="validatePasswordLength(event)" required />
 							</div>
 							<button class="pink-btn">Login</button>
 							<div id="createAccount" onclick="changeAnimation()" class="underline-txt">Create account</div>
@@ -30,15 +30,15 @@
 							<h2 style="text-align: center">Create Account</h2>
 							<div style="margin-bottom: 20px">
 								<div>Email</div>
-								<input class="inputTxt" type="email" required />
+								<input class="inputTxt" placeholder="pigeon@nestcoop.com" type="email" required />
 							</div>
 							<div style="margin-bottom: 20px">
 								<div>Password</div>
-								<input id="password" onkeyup="validatePasswordLength(event)" class="inputTxt" type="password" required />
+								<input id="password" placeholder="******" onkeyup="validatePasswordLength(event)" class="inputTxt" type="password" required />
 							</div>
 							<div style="margin-bottom: 20px">
 								<div>Confirm Password</div>
-								<input onkeyup="validatePasswordMatch()" id="confirmPassword" class="inputTxt" type="password" required />
+								<input onkeyup="validatePasswordMatch()" placeholder="******" id="confirmPassword" class="inputTxt" type="password" required />
 							</div>
 							<button style="background-color: #394d63" class="pink-btn">Create</button>
 							<div id="createAccount" onclick="changeAnimation('slideRight')" class="underline-txt">Already has an account</div>

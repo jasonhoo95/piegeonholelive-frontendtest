@@ -58,11 +58,16 @@ body {
 .inputTxt {
 	border-radius: 0.25rem !important;
 	width: 100%;
-	color: #6c757d !important;
 	margin-top: 5px;
+	color: black;
 	padding: 10px 10px;
 	border: 1px solid #e2e8f0 !important;
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+}
+
+.inputTxt ::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #6c757d !important;
 }
 
 .background-box {
